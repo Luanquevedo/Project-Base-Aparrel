@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Base Aparrel</title>
-    <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="./assets/icons/logo.svg" type="image/x-icon">
 </head>
+
 <body>
-    <script src="./js/app.js"></script>
+    <main class="container">
+        <header>
+            <img src="./assets/icons/Group.svg" aria-label="Logo Base Aparrel">
+        </header>
+        <section class="container__Bg"></section>
+        <section class="container__Content">
+            <img src="./assets/icons/Group.svg" aria-label="Logo Base Aparrel" class="logo">
+            <article>
+                <h2>
+                    WE'RE
+                </h2>
+                <h1>
+                    COMING <br>
+                    SOON
+                </h1>
+                <p>
+                    Hello fellow shoppers! We're currently building our new
+                    fashion store. Add your email below to stay up-to-date with
+                    announcements and our launch deals.
+                </p>
+            </article>
+            <form class="form-container">
+                <input type="email" placeholder="Email Address" aria-label="Email Address" id="emailInput">
+                <button type="submit" id="sub">></button>
+            </form>
+        </section>
+
+    </main>
+    <script src="./scripts/app.js"></script>
 </body>
+
 </html>

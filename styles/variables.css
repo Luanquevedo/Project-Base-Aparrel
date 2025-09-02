@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+:root {
+    --color-1: #423A3A;
+    --color-2: #CE9898;
+    --color-3: #EE8B8B;
+    --color-4: #FFFFFF;
+    --color-gradient: linear-gradient(125deg, #F8BFBF, #EE8B8B);
+    --color-gradient2:  linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    --font: 'Josefin Sans', sans-serif;
+}
